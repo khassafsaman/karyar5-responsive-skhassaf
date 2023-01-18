@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webdisighn</title>
+    <STYle>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            direction: rtl;
+            list-style: none;
+            padding: 10px;
+            margin: 0 310px;
+        }
+
+
+        li {
+            display: inline;
+
+        }
+
+        nav .menu {
+            background-color: gray;
+            height: 70px;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+        }
+
+        ul li a:hover {
+            background-color: darkgray;
+            color: blue;
+            padding: 10px;
+        }
+
+        h1 {
+            position: absolute;
+            top: 10px;
+            left: 212px;
+            color: white;
+        }
+
+        .pic {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.63)), url("s1-bp_640x330.jpg");
+            background-size: cover;
+        }
+
+        h2 {
+            height: 40px;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            margin-top: -20px;
+        }
+
+        .pic span {
+            color: blue;
+        }
+
+        .pic p {
+            height: 60%;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            margin-top: 11px;
+        }
+
+        .key {
+            height: 60%;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 1%;
+            left: 24%;
+            margin-top: 5px;
+            border: solid gray;
+            background-color: gray;
+            border-width: 15px;
+            /* transform: translate(-50%,0); */
+        }
+
+        .left {
+            background-image: url("photo_2022-12-20_16-12-37.jpg");
+            width: 50%;
+            height: 250px;
+            background-size: cover;
+            background-position: center center;
+            float: left;
+        }
+
+        .right {
+            background-color: gray;
+            width: 50%;
+            height: 250px;
+            position: relative;
+            float: left;
+
+        }
+
+        section {
+            position: relative;
+        }
+
+        .right span {
+            color: blue;
+
+        }
+
+        h3 {
+            height: 40px;
+            font-family: sans-serif;
+            text-align: center;
+            position: relative;
+            top: 20%;
+            margin-top: -20px;
+            color: white;
+
+
+        }
+
+        .right p {
+            height: 50px;
+            color: white;
+            font-family: sans-serif;
+            position: absolute;
+            top: 25%;
+            left: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+
+        }
+
+        .key2 {
+            height: 60%;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 60%;
+            left: 45%;
+            margin-top: 5px;
+            border: solid white;
+            background-color: white;
+            border-width: 10px;
+        }
+
+        .play {
+            width: 33%;
+            height: 100px;
+            background-color: antiquewhite;
+            float: left;
+            text-align: center;
+
+        }
+
+        .xbox {
+            width: 33%;
+            height: 100px;
+            background-color: blue;
+            float: left;
+            text-align: center;
+        }
+
+        .steam {
+            width: 34%;
+            height: 100px;
+            background-color: antiquewhite;
+            float: left;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: gray;
+            width: 100%;
+            height: 20px;
+            clear: both;
+            text-align: center;
+        }
+
+        em {
+            font-style: unset;
+            display: inline-block;
+            margin: 50px auto;
+            font-size: 10px;
+        }
+
+
+        @media (min-width:600px) and (max-width:800px) {
+            h1 {
+                position: absolute;
+                top: 16px;
+                left: 20%;
+                color: white;
+            }
+
+            ul {
+                display: block;
+                position: absolute;
+                top: 37px;
+                left: 37px;
+                transform: translate(-233px, 5px);
+            }
+
+            .pic p {
+                font-size: 10px;
+            }
+
+            .pic h2 {
+                font-size: 20px;
+            }
+
+            .key {
+                left: 36%;
+            }
+
+            .right h3 {
+                font-size: 10px;
+                left: -52px;
+            }
+
+            .right p {
+                font-size: 12px;
+            }
+
+            .right a {
+                left: 10%;
+            }
+
+            .right {
+                display: block;
+            }
+
+            .left {
+                display: block;
+            }
+
+
+
+
+
+        }
+    </STYle>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contant</a></li>
+            </ul>
+            <h1>
+                GAMESTATION
+            </h1>
+        </div>
+    </nav>
+    <main>
+        <div class="pic">
+            <h2><span>Enjoy</span>Your Game</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At expedita laboriosam fuga amet assumenda, ut
+                tenetur eaque.
+            </p>
+            <a class="key" href="#">About GameStation</a>
+        </div>
+    </main>
+
+    <section>
+        <div class="left"></div>
+        <div class="right">
+            <h3><span>The history of </span>GAMESTATION</h3>
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut tempora cumque totam? Magnam incidunt
+                voluptas expedita sequi reprehenderit omnis voluptatum praesentium. Quae iusto reiciendis natus voluptas
+                dolorem inventore quibusdam nemo.</P>
+            <a class="key2" href="">Read More</a>
+        </div>
+    </section>
+    <section>
+        <div class="play"><em>Lorem ipsum dolor sit amet.</em></div>
+        <div class="xbox"><em>Lorem ipsum dolor sit amet.</em></div>
+        <div class="steam"><em>Lorem ipsum dolor sit amet.</em></div>
+    </section>
+    <footer>
+        <div class="footer">GameStation 2020</div>
+    </footer>
+</body>
+
+</html>
